@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\RoboUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B90DFE4-81C6-4094-B595-C69999A72E20}|RoboUI.Package\\RoboUI.Package.wapproj|c:\\dev\\roboui\\roboui.package\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
+      "RelativeMoniker": "D:0:0:{0B90DFE4-81C6-4094-B595-C69999A72E20}|RoboUI.Package\\RoboUI.Package.wapproj|solutionrelative:roboui.package\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C220680-1D17-4C03-875F-7776469A62BD}|RoboUI.csproj|c:\\dev\\roboui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C220680-1D17-4C03-875F-7776469A62BD}|RoboUI.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C220680-1D17-4C03-875F-7776469A62BD}|RoboUI.csproj|c:\\dev\\roboui\\roboui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1C220680-1D17-4C03-875F-7776469A62BD}|RoboUI.csproj|solutionrelative:roboui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "C:\\Dev\\RoboUI\\RoboUI.Package\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "RoboUI.Package\\Package.appxmanifest",
+              "ToolTip": "C:\\Dev\\RoboUI\\RoboUI.Package\\Package.appxmanifest",
+              "RelativeToolTip": "RoboUI.Package\\Package.appxmanifest",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2026-02-05T15:44:33.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Dev\\RoboUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Dev\\RoboUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T15:04:37.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoboUI",
+              "DocumentMoniker": "C:\\Dev\\RoboUI\\RoboUI.csproj",
+              "RelativeDocumentMoniker": "RoboUI.csproj",
+              "ToolTip": "C:\\Dev\\RoboUI\\RoboUI.csproj",
+              "RelativeToolTip": "RoboUI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-05T14:55:28.342Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

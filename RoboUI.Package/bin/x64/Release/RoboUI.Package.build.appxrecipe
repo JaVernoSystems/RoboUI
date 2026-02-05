@@ -1,0 +1,1667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JAMESAM5</Machine>
+    <WindowsUser>james</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>b9a23007-01f8-43fa-927b-880d25f442e4</PackageIdentityName>
+    <PackageIdentityPublisher>CN=JaVerno Systems</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Dev\RoboUI\RoboUI.Package\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>C:\Dev\RoboUI\RoboUI.Package\bin\x64\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Dev\RoboUI\RoboUI.Package\bin\x64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Assets\Square310x310Logo.scale-200.png">
+      <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Assets\Square71x71Logo.scale-125.png">
+      <PackagePath>Assets\Square71x71Logo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Assets\Square71x71Logo.scale-200.png">
+      <PackagePath>Assets\Square71x71Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\BadgeLogo.scale-200.png">
+      <PackagePath>BadgeLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\BadgeLogo.scale-100.png">
+      <PackagePath>Images\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\BadgeLogo.scale-125.png">
+      <PackagePath>Images\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\BadgeLogo.scale-150.png">
+      <PackagePath>Images\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\BadgeLogo.scale-200.png">
+      <PackagePath>Images\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\BadgeLogo.scale-400.png">
+      <PackagePath>Images\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\SplashScreen.scale-100.png">
+      <PackagePath>Images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\SplashScreen.scale-125.png">
+      <PackagePath>Images\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\SplashScreen.scale-150.png">
+      <PackagePath>Images\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\SplashScreen.scale-400.png">
+      <PackagePath>Images\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square150x150Logo.scale-100.png">
+      <PackagePath>Images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square150x150Logo.scale-125.png">
+      <PackagePath>Images\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square150x150Logo.scale-150.png">
+      <PackagePath>Images\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square150x150Logo.scale-400.png">
+      <PackagePath>Images\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square310x310Logo.scale-100.png">
+      <PackagePath>Images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square310x310Logo.scale-125.png">
+      <PackagePath>Images\Square310x310Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square310x310Logo.scale-150.png">
+      <PackagePath>Images\Square310x310Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square310x310Logo.scale-200.png">
+      <PackagePath>Images\Square310x310Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square310x310Logo.scale-400.png">
+      <PackagePath>Images\Square310x310Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.scale-100.png">
+      <PackagePath>Images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.scale-125.png">
+      <PackagePath>Images\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.scale-150.png">
+      <PackagePath>Images\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.scale-400.png">
+      <PackagePath>Images\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square71x71Logo.scale-100.png">
+      <PackagePath>Images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square71x71Logo.scale-125.png">
+      <PackagePath>Images\Square71x71Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square71x71Logo.scale-150.png">
+      <PackagePath>Images\Square71x71Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square71x71Logo.scale-200.png">
+      <PackagePath>Images\Square71x71Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Square71x71Logo.scale-400.png">
+      <PackagePath>Images\Square71x71Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\StoreLogo.scale-100.png">
+      <PackagePath>Images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\StoreLogo.scale-125.png">
+      <PackagePath>Images\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\StoreLogo.scale-150.png">
+      <PackagePath>Images\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\StoreLogo.scale-200.png">
+      <PackagePath>Images\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\StoreLogo.scale-400.png">
+      <PackagePath>Images\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Wide310x150Logo.scale-100.png">
+      <PackagePath>Images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Wide310x150Logo.scale-125.png">
+      <PackagePath>Images\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Wide310x150Logo.scale-150.png">
+      <PackagePath>Images\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Images\Wide310x150Logo.scale-400.png">
+      <PackagePath>Images\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Square310x310Logo.scale-200.png">
+      <PackagePath>Square310x310Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Square71x71Logo.scale-125.png">
+      <PackagePath>Square71x71Logo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\Square71x71Logo.scale-200.png">
+      <PackagePath>Square71x71Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\RoboUI.Package\bin\x64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\RoboUI.exe">
+      <PackagePath>RoboUI\RoboUI.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\RoboUI.dll">
+      <PackagePath>RoboUI\RoboUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\RoboUI.deps.json">
+      <PackagePath>RoboUI\RoboUI.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\RoboUI.runtimeconfig.json">
+      <PackagePath>RoboUI\RoboUI.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\Microsoft.CSharp.dll">
+      <PackagePath>RoboUI\Microsoft.CSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\Microsoft.VisualBasic.Core.dll">
+      <PackagePath>RoboUI\Microsoft.VisualBasic.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\Microsoft.Win32.Primitives.dll">
+      <PackagePath>RoboUI\Microsoft.Win32.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\Microsoft.Win32.Registry.dll">
+      <PackagePath>RoboUI\Microsoft.Win32.Registry.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.AppContext.dll">
+      <PackagePath>RoboUI\System.AppContext.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Buffers.dll">
+      <PackagePath>RoboUI\System.Buffers.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Collections.Concurrent.dll">
+      <PackagePath>RoboUI\System.Collections.Concurrent.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Collections.Immutable.dll">
+      <PackagePath>RoboUI\System.Collections.Immutable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Collections.NonGeneric.dll">
+      <PackagePath>RoboUI\System.Collections.NonGeneric.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Collections.Specialized.dll">
+      <PackagePath>RoboUI\System.Collections.Specialized.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Collections.dll">
+      <PackagePath>RoboUI\System.Collections.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.ComponentModel.Annotations.dll">
+      <PackagePath>RoboUI\System.ComponentModel.Annotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>RoboUI\System.ComponentModel.DataAnnotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>RoboUI\System.ComponentModel.EventBasedAsync.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.ComponentModel.Primitives.dll">
+      <PackagePath>RoboUI\System.ComponentModel.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>RoboUI\System.ComponentModel.TypeConverter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.ComponentModel.dll">
+      <PackagePath>RoboUI\System.ComponentModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Configuration.dll">
+      <PackagePath>RoboUI\System.Configuration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Console.dll">
+      <PackagePath>RoboUI\System.Console.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Core.dll">
+      <PackagePath>RoboUI\System.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Data.Common.dll">
+      <PackagePath>RoboUI\System.Data.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Data.DataSetExtensions.dll">
+      <PackagePath>RoboUI\System.Data.DataSetExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Data.dll">
+      <PackagePath>RoboUI\System.Data.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Diagnostics.Contracts.dll">
+      <PackagePath>RoboUI\System.Diagnostics.Contracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Diagnostics.Debug.dll">
+      <PackagePath>RoboUI\System.Diagnostics.Debug.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>RoboUI\System.Diagnostics.DiagnosticSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Diagnostics.FileVersionInfo.dll">
+      <PackagePath>RoboUI\System.Diagnostics.FileVersionInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Diagnostics.Process.dll">
+      <PackagePath>RoboUI\System.Diagnostics.Process.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Diagnostics.StackTrace.dll">
+      <PackagePath>RoboUI\System.Diagnostics.StackTrace.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Diagnostics.TextWriterTraceListener.dll">
+      <PackagePath>RoboUI\System.Diagnostics.TextWriterTraceListener.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Diagnostics.Tools.dll">
+      <PackagePath>RoboUI\System.Diagnostics.Tools.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Diagnostics.TraceSource.dll">
+      <PackagePath>RoboUI\System.Diagnostics.TraceSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Diagnostics.Tracing.dll">
+      <PackagePath>RoboUI\System.Diagnostics.Tracing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Drawing.Primitives.dll">
+      <PackagePath>RoboUI\System.Drawing.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Dynamic.Runtime.dll">
+      <PackagePath>RoboUI\System.Dynamic.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Formats.Asn1.dll">
+      <PackagePath>RoboUI\System.Formats.Asn1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Formats.Tar.dll">
+      <PackagePath>RoboUI\System.Formats.Tar.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Globalization.Calendars.dll">
+      <PackagePath>RoboUI\System.Globalization.Calendars.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Globalization.Extensions.dll">
+      <PackagePath>RoboUI\System.Globalization.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Globalization.dll">
+      <PackagePath>RoboUI\System.Globalization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.Compression.Brotli.dll">
+      <PackagePath>RoboUI\System.IO.Compression.Brotli.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.Compression.FileSystem.dll">
+      <PackagePath>RoboUI\System.IO.Compression.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.Compression.ZipFile.dll">
+      <PackagePath>RoboUI\System.IO.Compression.ZipFile.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.Compression.dll">
+      <PackagePath>RoboUI\System.IO.Compression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.FileSystem.AccessControl.dll">
+      <PackagePath>RoboUI\System.IO.FileSystem.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.FileSystem.DriveInfo.dll">
+      <PackagePath>RoboUI\System.IO.FileSystem.DriveInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>RoboUI\System.IO.FileSystem.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.FileSystem.Watcher.dll">
+      <PackagePath>RoboUI\System.IO.FileSystem.Watcher.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.FileSystem.dll">
+      <PackagePath>RoboUI\System.IO.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.IsolatedStorage.dll">
+      <PackagePath>RoboUI\System.IO.IsolatedStorage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>RoboUI\System.IO.MemoryMappedFiles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.Pipes.AccessControl.dll">
+      <PackagePath>RoboUI\System.IO.Pipes.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.Pipes.dll">
+      <PackagePath>RoboUI\System.IO.Pipes.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>RoboUI\System.IO.UnmanagedMemoryStream.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.dll">
+      <PackagePath>RoboUI\System.IO.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Linq.Expressions.dll">
+      <PackagePath>RoboUI\System.Linq.Expressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Linq.Parallel.dll">
+      <PackagePath>RoboUI\System.Linq.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Linq.Queryable.dll">
+      <PackagePath>RoboUI\System.Linq.Queryable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Linq.dll">
+      <PackagePath>RoboUI\System.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Memory.dll">
+      <PackagePath>RoboUI\System.Memory.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.Http.Json.dll">
+      <PackagePath>RoboUI\System.Net.Http.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.Http.dll">
+      <PackagePath>RoboUI\System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.HttpListener.dll">
+      <PackagePath>RoboUI\System.Net.HttpListener.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.Mail.dll">
+      <PackagePath>RoboUI\System.Net.Mail.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.NameResolution.dll">
+      <PackagePath>RoboUI\System.Net.NameResolution.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.NetworkInformation.dll">
+      <PackagePath>RoboUI\System.Net.NetworkInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.Ping.dll">
+      <PackagePath>RoboUI\System.Net.Ping.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.Primitives.dll">
+      <PackagePath>RoboUI\System.Net.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.Quic.dll">
+      <PackagePath>RoboUI\System.Net.Quic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.Requests.dll">
+      <PackagePath>RoboUI\System.Net.Requests.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.Security.dll">
+      <PackagePath>RoboUI\System.Net.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.ServicePoint.dll">
+      <PackagePath>RoboUI\System.Net.ServicePoint.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.Sockets.dll">
+      <PackagePath>RoboUI\System.Net.Sockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.WebClient.dll">
+      <PackagePath>RoboUI\System.Net.WebClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.WebHeaderCollection.dll">
+      <PackagePath>RoboUI\System.Net.WebHeaderCollection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.WebProxy.dll">
+      <PackagePath>RoboUI\System.Net.WebProxy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.WebSockets.Client.dll">
+      <PackagePath>RoboUI\System.Net.WebSockets.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.WebSockets.dll">
+      <PackagePath>RoboUI\System.Net.WebSockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Net.dll">
+      <PackagePath>RoboUI\System.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Numerics.Vectors.dll">
+      <PackagePath>RoboUI\System.Numerics.Vectors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Numerics.dll">
+      <PackagePath>RoboUI\System.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.ObjectModel.dll">
+      <PackagePath>RoboUI\System.ObjectModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Private.CoreLib.dll">
+      <PackagePath>RoboUI\System.Private.CoreLib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Private.DataContractSerialization.dll">
+      <PackagePath>RoboUI\System.Private.DataContractSerialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Private.Uri.dll">
+      <PackagePath>RoboUI\System.Private.Uri.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Private.Xml.Linq.dll">
+      <PackagePath>RoboUI\System.Private.Xml.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Private.Xml.dll">
+      <PackagePath>RoboUI\System.Private.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Reflection.DispatchProxy.dll">
+      <PackagePath>RoboUI\System.Reflection.DispatchProxy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>RoboUI\System.Reflection.Emit.ILGeneration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>RoboUI\System.Reflection.Emit.Lightweight.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Reflection.Emit.dll">
+      <PackagePath>RoboUI\System.Reflection.Emit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Reflection.Extensions.dll">
+      <PackagePath>RoboUI\System.Reflection.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Reflection.Metadata.dll">
+      <PackagePath>RoboUI\System.Reflection.Metadata.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Reflection.Primitives.dll">
+      <PackagePath>RoboUI\System.Reflection.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Reflection.TypeExtensions.dll">
+      <PackagePath>RoboUI\System.Reflection.TypeExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Reflection.dll">
+      <PackagePath>RoboUI\System.Reflection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Resources.Reader.dll">
+      <PackagePath>RoboUI\System.Resources.Reader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Resources.ResourceManager.dll">
+      <PackagePath>RoboUI\System.Resources.ResourceManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Resources.Writer.dll">
+      <PackagePath>RoboUI\System.Resources.Writer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>RoboUI\System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.CompilerServices.VisualC.dll">
+      <PackagePath>RoboUI\System.Runtime.CompilerServices.VisualC.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.Extensions.dll">
+      <PackagePath>RoboUI\System.Runtime.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.Handles.dll">
+      <PackagePath>RoboUI\System.Runtime.Handles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.InteropServices.JavaScript.dll">
+      <PackagePath>RoboUI\System.Runtime.InteropServices.JavaScript.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.InteropServices.RuntimeInformation.dll">
+      <PackagePath>RoboUI\System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.InteropServices.dll">
+      <PackagePath>RoboUI\System.Runtime.InteropServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.Intrinsics.dll">
+      <PackagePath>RoboUI\System.Runtime.Intrinsics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.Loader.dll">
+      <PackagePath>RoboUI\System.Runtime.Loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.Numerics.dll">
+      <PackagePath>RoboUI\System.Runtime.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.Serialization.Formatters.dll">
+      <PackagePath>RoboUI\System.Runtime.Serialization.Formatters.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.Serialization.Json.dll">
+      <PackagePath>RoboUI\System.Runtime.Serialization.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>RoboUI\System.Runtime.Serialization.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>RoboUI\System.Runtime.Serialization.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.Serialization.dll">
+      <PackagePath>RoboUI\System.Runtime.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Runtime.dll">
+      <PackagePath>RoboUI\System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.AccessControl.dll">
+      <PackagePath>RoboUI\System.Security.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Claims.dll">
+      <PackagePath>RoboUI\System.Security.Claims.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>RoboUI\System.Security.Cryptography.Algorithms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Cryptography.Cng.dll">
+      <PackagePath>RoboUI\System.Security.Cryptography.Cng.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Cryptography.Csp.dll">
+      <PackagePath>RoboUI\System.Security.Cryptography.Csp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>RoboUI\System.Security.Cryptography.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Cryptography.OpenSsl.dll">
+      <PackagePath>RoboUI\System.Security.Cryptography.OpenSsl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>RoboUI\System.Security.Cryptography.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>RoboUI\System.Security.Cryptography.X509Certificates.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Cryptography.dll">
+      <PackagePath>RoboUI\System.Security.Cryptography.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Principal.Windows.dll">
+      <PackagePath>RoboUI\System.Security.Principal.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Principal.dll">
+      <PackagePath>RoboUI\System.Security.Principal.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.SecureString.dll">
+      <PackagePath>RoboUI\System.Security.SecureString.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.dll">
+      <PackagePath>RoboUI\System.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.ServiceModel.Web.dll">
+      <PackagePath>RoboUI\System.ServiceModel.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.ServiceProcess.dll">
+      <PackagePath>RoboUI\System.ServiceProcess.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Text.Encoding.CodePages.dll">
+      <PackagePath>RoboUI\System.Text.Encoding.CodePages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Text.Encoding.Extensions.dll">
+      <PackagePath>RoboUI\System.Text.Encoding.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Text.Encoding.dll">
+      <PackagePath>RoboUI\System.Text.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Text.Encodings.Web.dll">
+      <PackagePath>RoboUI\System.Text.Encodings.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Text.Json.dll">
+      <PackagePath>RoboUI\System.Text.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Text.RegularExpressions.dll">
+      <PackagePath>RoboUI\System.Text.RegularExpressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Threading.Channels.dll">
+      <PackagePath>RoboUI\System.Threading.Channels.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Threading.Overlapped.dll">
+      <PackagePath>RoboUI\System.Threading.Overlapped.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>RoboUI\System.Threading.Tasks.Dataflow.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>RoboUI\System.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>RoboUI\System.Threading.Tasks.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Threading.Tasks.dll">
+      <PackagePath>RoboUI\System.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Threading.Thread.dll">
+      <PackagePath>RoboUI\System.Threading.Thread.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Threading.ThreadPool.dll">
+      <PackagePath>RoboUI\System.Threading.ThreadPool.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Threading.Timer.dll">
+      <PackagePath>RoboUI\System.Threading.Timer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Threading.dll">
+      <PackagePath>RoboUI\System.Threading.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Transactions.Local.dll">
+      <PackagePath>RoboUI\System.Transactions.Local.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Transactions.dll">
+      <PackagePath>RoboUI\System.Transactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.ValueTuple.dll">
+      <PackagePath>RoboUI\System.ValueTuple.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Web.HttpUtility.dll">
+      <PackagePath>RoboUI\System.Web.HttpUtility.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Web.dll">
+      <PackagePath>RoboUI\System.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Windows.dll">
+      <PackagePath>RoboUI\System.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Xml.Linq.dll">
+      <PackagePath>RoboUI\System.Xml.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Xml.ReaderWriter.dll">
+      <PackagePath>RoboUI\System.Xml.ReaderWriter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Xml.Serialization.dll">
+      <PackagePath>RoboUI\System.Xml.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Xml.XDocument.dll">
+      <PackagePath>RoboUI\System.Xml.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Xml.XPath.XDocument.dll">
+      <PackagePath>RoboUI\System.Xml.XPath.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Xml.XPath.dll">
+      <PackagePath>RoboUI\System.Xml.XPath.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Xml.XmlDocument.dll">
+      <PackagePath>RoboUI\System.Xml.XmlDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Xml.XmlSerializer.dll">
+      <PackagePath>RoboUI\System.Xml.XmlSerializer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Xml.dll">
+      <PackagePath>RoboUI\System.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.dll">
+      <PackagePath>RoboUI\System.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\mscorlib.dll">
+      <PackagePath>RoboUI\mscorlib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\netstandard.dll">
+      <PackagePath>RoboUI\netstandard.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\Accessibility.dll">
+      <PackagePath>RoboUI\Accessibility.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\DirectWriteForwarder.dll">
+      <PackagePath>RoboUI\DirectWriteForwarder.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\Microsoft.VisualBasic.Forms.dll">
+      <PackagePath>RoboUI\Microsoft.VisualBasic.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\Microsoft.VisualBasic.dll">
+      <PackagePath>RoboUI\Microsoft.VisualBasic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\Microsoft.Win32.Registry.AccessControl.dll">
+      <PackagePath>RoboUI\Microsoft.Win32.Registry.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\Microsoft.Win32.SystemEvents.dll">
+      <PackagePath>RoboUI\Microsoft.Win32.SystemEvents.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationCore.dll">
+      <PackagePath>RoboUI\PresentationCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationFramework-SystemCore.dll">
+      <PackagePath>RoboUI\PresentationFramework-SystemCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationFramework-SystemData.dll">
+      <PackagePath>RoboUI\PresentationFramework-SystemData.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationFramework-SystemDrawing.dll">
+      <PackagePath>RoboUI\PresentationFramework-SystemDrawing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationFramework-SystemXml.dll">
+      <PackagePath>RoboUI\PresentationFramework-SystemXml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationFramework-SystemXmlLinq.dll">
+      <PackagePath>RoboUI\PresentationFramework-SystemXmlLinq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationFramework.Aero.dll">
+      <PackagePath>RoboUI\PresentationFramework.Aero.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationFramework.Aero2.dll">
+      <PackagePath>RoboUI\PresentationFramework.Aero2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationFramework.AeroLite.dll">
+      <PackagePath>RoboUI\PresentationFramework.AeroLite.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationFramework.Classic.dll">
+      <PackagePath>RoboUI\PresentationFramework.Classic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationFramework.Luna.dll">
+      <PackagePath>RoboUI\PresentationFramework.Luna.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationFramework.Royale.dll">
+      <PackagePath>RoboUI\PresentationFramework.Royale.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationFramework.dll">
+      <PackagePath>RoboUI\PresentationFramework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationUI.dll">
+      <PackagePath>RoboUI\PresentationUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ReachFramework.dll">
+      <PackagePath>RoboUI\ReachFramework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.CodeDom.dll">
+      <PackagePath>RoboUI\System.CodeDom.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Configuration.ConfigurationManager.dll">
+      <PackagePath>RoboUI\System.Configuration.ConfigurationManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Design.dll">
+      <PackagePath>RoboUI\System.Design.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Diagnostics.EventLog.Messages.dll">
+      <PackagePath>RoboUI\System.Diagnostics.EventLog.Messages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Diagnostics.EventLog.dll">
+      <PackagePath>RoboUI\System.Diagnostics.EventLog.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Diagnostics.PerformanceCounter.dll">
+      <PackagePath>RoboUI\System.Diagnostics.PerformanceCounter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.DirectoryServices.dll">
+      <PackagePath>RoboUI\System.DirectoryServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Drawing.Common.dll">
+      <PackagePath>RoboUI\System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Drawing.Design.dll">
+      <PackagePath>RoboUI\System.Drawing.Design.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Drawing.dll">
+      <PackagePath>RoboUI\System.Drawing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.Packaging.dll">
+      <PackagePath>RoboUI\System.IO.Packaging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Printing.dll">
+      <PackagePath>RoboUI\System.Printing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Resources.Extensions.dll">
+      <PackagePath>RoboUI\System.Resources.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Cryptography.Pkcs.dll">
+      <PackagePath>RoboUI\System.Security.Cryptography.Pkcs.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>RoboUI\System.Security.Cryptography.ProtectedData.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Cryptography.Xml.dll">
+      <PackagePath>RoboUI\System.Security.Cryptography.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Security.Permissions.dll">
+      <PackagePath>RoboUI\System.Security.Permissions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Threading.AccessControl.dll">
+      <PackagePath>RoboUI\System.Threading.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Windows.Controls.Ribbon.dll">
+      <PackagePath>RoboUI\System.Windows.Controls.Ribbon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Windows.Extensions.dll">
+      <PackagePath>RoboUI\System.Windows.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Windows.Forms.Design.Editors.dll">
+      <PackagePath>RoboUI\System.Windows.Forms.Design.Editors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Windows.Forms.Design.dll">
+      <PackagePath>RoboUI\System.Windows.Forms.Design.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Windows.Forms.Primitives.dll">
+      <PackagePath>RoboUI\System.Windows.Forms.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Windows.Forms.dll">
+      <PackagePath>RoboUI\System.Windows.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Windows.Input.Manipulations.dll">
+      <PackagePath>RoboUI\System.Windows.Input.Manipulations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Windows.Presentation.dll">
+      <PackagePath>RoboUI\System.Windows.Presentation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.Xaml.dll">
+      <PackagePath>RoboUI\System.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\UIAutomationClient.dll">
+      <PackagePath>RoboUI\UIAutomationClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\UIAutomationClientSideProviders.dll">
+      <PackagePath>RoboUI\UIAutomationClientSideProviders.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\UIAutomationProvider.dll">
+      <PackagePath>RoboUI\UIAutomationProvider.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\UIAutomationTypes.dll">
+      <PackagePath>RoboUI\UIAutomationTypes.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\WindowsBase.dll">
+      <PackagePath>RoboUI\WindowsBase.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\WindowsFormsIntegration.dll">
+      <PackagePath>RoboUI\WindowsFormsIntegration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\Microsoft.DiaSymReader.Native.amd64.dll">
+      <PackagePath>RoboUI\Microsoft.DiaSymReader.Native.amd64.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\System.IO.Compression.Native.dll">
+      <PackagePath>RoboUI\System.IO.Compression.Native.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\clretwrc.dll">
+      <PackagePath>RoboUI\clretwrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\clrgc.dll">
+      <PackagePath>RoboUI\clrgc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\clrjit.dll">
+      <PackagePath>RoboUI\clrjit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\coreclr.dll">
+      <PackagePath>RoboUI\coreclr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\createdump.exe">
+      <PackagePath>RoboUI\createdump.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\hostfxr.dll">
+      <PackagePath>RoboUI\hostfxr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\hostpolicy.dll">
+      <PackagePath>RoboUI\hostpolicy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\mscordaccore.dll">
+      <PackagePath>RoboUI\mscordaccore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\mscordaccore_amd64_amd64_8.0.2025.41914.dll">
+      <PackagePath>RoboUI\mscordaccore_amd64_amd64_8.0.2025.41914.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\mscordbi.dll">
+      <PackagePath>RoboUI\mscordbi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\mscorrc.dll">
+      <PackagePath>RoboUI\mscorrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\msquic.dll">
+      <PackagePath>RoboUI\msquic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\D3DCompiler_47_cor3.dll">
+      <PackagePath>RoboUI\D3DCompiler_47_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PenImc_cor3.dll">
+      <PackagePath>RoboUI\PenImc_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\PresentationNative_cor3.dll">
+      <PackagePath>RoboUI\PresentationNative_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\vcruntime140_cor3.dll">
+      <PackagePath>RoboUI\vcruntime140_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\wpfgfx_cor3.dll">
+      <PackagePath>RoboUI\wpfgfx_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>RoboUI\cs\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\PresentationCore.resources.dll">
+      <PackagePath>RoboUI\cs\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\PresentationFramework.resources.dll">
+      <PackagePath>RoboUI\cs\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\PresentationUI.resources.dll">
+      <PackagePath>RoboUI\cs\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\ReachFramework.resources.dll">
+      <PackagePath>RoboUI\cs\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>RoboUI\cs\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>RoboUI\cs\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>RoboUI\cs\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\System.Windows.Forms.resources.dll">
+      <PackagePath>RoboUI\cs\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>RoboUI\cs\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\System.Xaml.resources.dll">
+      <PackagePath>RoboUI\cs\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\UIAutomationClient.resources.dll">
+      <PackagePath>RoboUI\cs\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>RoboUI\cs\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\UIAutomationProvider.resources.dll">
+      <PackagePath>RoboUI\cs\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\UIAutomationTypes.resources.dll">
+      <PackagePath>RoboUI\cs\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\WindowsBase.resources.dll">
+      <PackagePath>RoboUI\cs\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\cs\WindowsFormsIntegration.resources.dll">
+      <PackagePath>RoboUI\cs\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>RoboUI\de\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\PresentationCore.resources.dll">
+      <PackagePath>RoboUI\de\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\PresentationFramework.resources.dll">
+      <PackagePath>RoboUI\de\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\PresentationUI.resources.dll">
+      <PackagePath>RoboUI\de\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\ReachFramework.resources.dll">
+      <PackagePath>RoboUI\de\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>RoboUI\de\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>RoboUI\de\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>RoboUI\de\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\System.Windows.Forms.resources.dll">
+      <PackagePath>RoboUI\de\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>RoboUI\de\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\System.Xaml.resources.dll">
+      <PackagePath>RoboUI\de\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\UIAutomationClient.resources.dll">
+      <PackagePath>RoboUI\de\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>RoboUI\de\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\UIAutomationProvider.resources.dll">
+      <PackagePath>RoboUI\de\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\UIAutomationTypes.resources.dll">
+      <PackagePath>RoboUI\de\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\WindowsBase.resources.dll">
+      <PackagePath>RoboUI\de\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\de\WindowsFormsIntegration.resources.dll">
+      <PackagePath>RoboUI\de\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>RoboUI\es\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\PresentationCore.resources.dll">
+      <PackagePath>RoboUI\es\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\PresentationFramework.resources.dll">
+      <PackagePath>RoboUI\es\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\PresentationUI.resources.dll">
+      <PackagePath>RoboUI\es\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\ReachFramework.resources.dll">
+      <PackagePath>RoboUI\es\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>RoboUI\es\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>RoboUI\es\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>RoboUI\es\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\System.Windows.Forms.resources.dll">
+      <PackagePath>RoboUI\es\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>RoboUI\es\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\System.Xaml.resources.dll">
+      <PackagePath>RoboUI\es\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\UIAutomationClient.resources.dll">
+      <PackagePath>RoboUI\es\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>RoboUI\es\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\UIAutomationProvider.resources.dll">
+      <PackagePath>RoboUI\es\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\UIAutomationTypes.resources.dll">
+      <PackagePath>RoboUI\es\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\WindowsBase.resources.dll">
+      <PackagePath>RoboUI\es\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\es\WindowsFormsIntegration.resources.dll">
+      <PackagePath>RoboUI\es\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>RoboUI\fr\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\PresentationCore.resources.dll">
+      <PackagePath>RoboUI\fr\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\PresentationFramework.resources.dll">
+      <PackagePath>RoboUI\fr\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\PresentationUI.resources.dll">
+      <PackagePath>RoboUI\fr\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\ReachFramework.resources.dll">
+      <PackagePath>RoboUI\fr\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>RoboUI\fr\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>RoboUI\fr\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>RoboUI\fr\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\System.Windows.Forms.resources.dll">
+      <PackagePath>RoboUI\fr\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>RoboUI\fr\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\System.Xaml.resources.dll">
+      <PackagePath>RoboUI\fr\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\UIAutomationClient.resources.dll">
+      <PackagePath>RoboUI\fr\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>RoboUI\fr\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\UIAutomationProvider.resources.dll">
+      <PackagePath>RoboUI\fr\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\UIAutomationTypes.resources.dll">
+      <PackagePath>RoboUI\fr\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\WindowsBase.resources.dll">
+      <PackagePath>RoboUI\fr\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\fr\WindowsFormsIntegration.resources.dll">
+      <PackagePath>RoboUI\fr\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>RoboUI\it\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\PresentationCore.resources.dll">
+      <PackagePath>RoboUI\it\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\PresentationFramework.resources.dll">
+      <PackagePath>RoboUI\it\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\PresentationUI.resources.dll">
+      <PackagePath>RoboUI\it\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\ReachFramework.resources.dll">
+      <PackagePath>RoboUI\it\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>RoboUI\it\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>RoboUI\it\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>RoboUI\it\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\System.Windows.Forms.resources.dll">
+      <PackagePath>RoboUI\it\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>RoboUI\it\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\System.Xaml.resources.dll">
+      <PackagePath>RoboUI\it\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\UIAutomationClient.resources.dll">
+      <PackagePath>RoboUI\it\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>RoboUI\it\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\UIAutomationProvider.resources.dll">
+      <PackagePath>RoboUI\it\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\UIAutomationTypes.resources.dll">
+      <PackagePath>RoboUI\it\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\WindowsBase.resources.dll">
+      <PackagePath>RoboUI\it\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\it\WindowsFormsIntegration.resources.dll">
+      <PackagePath>RoboUI\it\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>RoboUI\ja\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\PresentationCore.resources.dll">
+      <PackagePath>RoboUI\ja\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\PresentationFramework.resources.dll">
+      <PackagePath>RoboUI\ja\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\PresentationUI.resources.dll">
+      <PackagePath>RoboUI\ja\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\ReachFramework.resources.dll">
+      <PackagePath>RoboUI\ja\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>RoboUI\ja\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>RoboUI\ja\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>RoboUI\ja\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\System.Windows.Forms.resources.dll">
+      <PackagePath>RoboUI\ja\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>RoboUI\ja\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\System.Xaml.resources.dll">
+      <PackagePath>RoboUI\ja\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\UIAutomationClient.resources.dll">
+      <PackagePath>RoboUI\ja\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>RoboUI\ja\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\UIAutomationProvider.resources.dll">
+      <PackagePath>RoboUI\ja\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\UIAutomationTypes.resources.dll">
+      <PackagePath>RoboUI\ja\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\WindowsBase.resources.dll">
+      <PackagePath>RoboUI\ja\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ja\WindowsFormsIntegration.resources.dll">
+      <PackagePath>RoboUI\ja\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>RoboUI\ko\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\PresentationCore.resources.dll">
+      <PackagePath>RoboUI\ko\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\PresentationFramework.resources.dll">
+      <PackagePath>RoboUI\ko\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\PresentationUI.resources.dll">
+      <PackagePath>RoboUI\ko\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\ReachFramework.resources.dll">
+      <PackagePath>RoboUI\ko\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>RoboUI\ko\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>RoboUI\ko\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>RoboUI\ko\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\System.Windows.Forms.resources.dll">
+      <PackagePath>RoboUI\ko\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>RoboUI\ko\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\System.Xaml.resources.dll">
+      <PackagePath>RoboUI\ko\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\UIAutomationClient.resources.dll">
+      <PackagePath>RoboUI\ko\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>RoboUI\ko\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\UIAutomationProvider.resources.dll">
+      <PackagePath>RoboUI\ko\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\UIAutomationTypes.resources.dll">
+      <PackagePath>RoboUI\ko\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\WindowsBase.resources.dll">
+      <PackagePath>RoboUI\ko\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ko\WindowsFormsIntegration.resources.dll">
+      <PackagePath>RoboUI\ko\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>RoboUI\pl\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\PresentationCore.resources.dll">
+      <PackagePath>RoboUI\pl\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\PresentationFramework.resources.dll">
+      <PackagePath>RoboUI\pl\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\PresentationUI.resources.dll">
+      <PackagePath>RoboUI\pl\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\ReachFramework.resources.dll">
+      <PackagePath>RoboUI\pl\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>RoboUI\pl\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>RoboUI\pl\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>RoboUI\pl\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\System.Windows.Forms.resources.dll">
+      <PackagePath>RoboUI\pl\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>RoboUI\pl\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\System.Xaml.resources.dll">
+      <PackagePath>RoboUI\pl\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\UIAutomationClient.resources.dll">
+      <PackagePath>RoboUI\pl\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>RoboUI\pl\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\UIAutomationProvider.resources.dll">
+      <PackagePath>RoboUI\pl\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\UIAutomationTypes.resources.dll">
+      <PackagePath>RoboUI\pl\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\WindowsBase.resources.dll">
+      <PackagePath>RoboUI\pl\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pl\WindowsFormsIntegration.resources.dll">
+      <PackagePath>RoboUI\pl\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>RoboUI\pt-BR\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\PresentationCore.resources.dll">
+      <PackagePath>RoboUI\pt-BR\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\PresentationFramework.resources.dll">
+      <PackagePath>RoboUI\pt-BR\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\PresentationUI.resources.dll">
+      <PackagePath>RoboUI\pt-BR\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\ReachFramework.resources.dll">
+      <PackagePath>RoboUI\pt-BR\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>RoboUI\pt-BR\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>RoboUI\pt-BR\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>RoboUI\pt-BR\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\System.Windows.Forms.resources.dll">
+      <PackagePath>RoboUI\pt-BR\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>RoboUI\pt-BR\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\System.Xaml.resources.dll">
+      <PackagePath>RoboUI\pt-BR\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\UIAutomationClient.resources.dll">
+      <PackagePath>RoboUI\pt-BR\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>RoboUI\pt-BR\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\UIAutomationProvider.resources.dll">
+      <PackagePath>RoboUI\pt-BR\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\UIAutomationTypes.resources.dll">
+      <PackagePath>RoboUI\pt-BR\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\WindowsBase.resources.dll">
+      <PackagePath>RoboUI\pt-BR\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\pt-BR\WindowsFormsIntegration.resources.dll">
+      <PackagePath>RoboUI\pt-BR\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>RoboUI\ru\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\PresentationCore.resources.dll">
+      <PackagePath>RoboUI\ru\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\PresentationFramework.resources.dll">
+      <PackagePath>RoboUI\ru\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\PresentationUI.resources.dll">
+      <PackagePath>RoboUI\ru\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\ReachFramework.resources.dll">
+      <PackagePath>RoboUI\ru\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>RoboUI\ru\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>RoboUI\ru\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>RoboUI\ru\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\System.Windows.Forms.resources.dll">
+      <PackagePath>RoboUI\ru\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>RoboUI\ru\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\System.Xaml.resources.dll">
+      <PackagePath>RoboUI\ru\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\UIAutomationClient.resources.dll">
+      <PackagePath>RoboUI\ru\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>RoboUI\ru\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\UIAutomationProvider.resources.dll">
+      <PackagePath>RoboUI\ru\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\UIAutomationTypes.resources.dll">
+      <PackagePath>RoboUI\ru\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\WindowsBase.resources.dll">
+      <PackagePath>RoboUI\ru\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\ru\WindowsFormsIntegration.resources.dll">
+      <PackagePath>RoboUI\ru\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>RoboUI\tr\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\PresentationCore.resources.dll">
+      <PackagePath>RoboUI\tr\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\PresentationFramework.resources.dll">
+      <PackagePath>RoboUI\tr\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\PresentationUI.resources.dll">
+      <PackagePath>RoboUI\tr\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\ReachFramework.resources.dll">
+      <PackagePath>RoboUI\tr\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>RoboUI\tr\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>RoboUI\tr\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>RoboUI\tr\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\System.Windows.Forms.resources.dll">
+      <PackagePath>RoboUI\tr\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>RoboUI\tr\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\System.Xaml.resources.dll">
+      <PackagePath>RoboUI\tr\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\UIAutomationClient.resources.dll">
+      <PackagePath>RoboUI\tr\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>RoboUI\tr\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\UIAutomationProvider.resources.dll">
+      <PackagePath>RoboUI\tr\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\UIAutomationTypes.resources.dll">
+      <PackagePath>RoboUI\tr\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\WindowsBase.resources.dll">
+      <PackagePath>RoboUI\tr\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\tr\WindowsFormsIntegration.resources.dll">
+      <PackagePath>RoboUI\tr\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\PresentationCore.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\PresentationFramework.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\PresentationUI.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\ReachFramework.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\System.Windows.Forms.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\System.Xaml.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\UIAutomationClient.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\UIAutomationProvider.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\UIAutomationTypes.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\WindowsBase.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hans\WindowsFormsIntegration.resources.dll">
+      <PackagePath>RoboUI\zh-Hans\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\PresentationCore.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\PresentationFramework.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\PresentationUI.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\ReachFramework.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\System.Windows.Forms.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\System.Xaml.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\UIAutomationClient.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\UIAutomationProvider.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\UIAutomationTypes.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\WindowsBase.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\RoboUI\bin\x64\Release\net8.0-windows\win-x64\msixpublish\zh-Hant\WindowsFormsIntegration.resources.dll">
+      <PackagePath>RoboUI\zh-Hant\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

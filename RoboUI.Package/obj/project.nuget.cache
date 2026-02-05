@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "691QzGEYPpM=",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\RoboUI\\RoboUI.Package\\RoboUI.Package.wapproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\james\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.26100.7463\\microsoft.windows.sdk.buildtools.10.0.26100.7463.nupkg.sha512"
+  ],
+  "logs": []
+}

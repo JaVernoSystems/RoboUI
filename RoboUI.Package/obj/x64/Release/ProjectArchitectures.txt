@@ -1,0 +1,1 @@
+C:\Dev\RoboUI\RoboUI.Package\RoboUI.Package.wapproj;x64
