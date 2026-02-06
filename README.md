@@ -6,6 +6,15 @@
 
 ---
 
+## ***!!!Security Note!!!***
+
+RoboUI is a graphical front-end for Windows **Robocopy**, a built-in system utility.  
+It ***does not*** connect to the internet, collect data, or transmit information.
+
+During installation, Windows may display standard capability prompts related to packaged desktop applications. These are part of the MSIX packaging model and do not indicate network activity by RoboUI itself.
+
+---
+
 ## Overview
 
 RoboUI is a Windows utility that provides a user-friendly interface for **Robocopy**, the built-in high-performance file copy tool included with Windows.
