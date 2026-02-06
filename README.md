@@ -120,10 +120,7 @@ It simply makes Robocopy easier to use.
 
 ## Install RoboUI
 
-1. Download all files
-2. Right-click **RoboUI.Package_1.0.0.0_x64.msix**
-   - Install Certificate
-   - Local Machine
-   - Place in **Trusted People**
-3. Double-click **RoboUI.Package_1.0.0.0_x64.msix**
-4. Click Install
+1. Download zip file
+2. Extract All
+4. Double-click **RoboUI.Package_1.0.0.0_x64.msix**
+5. Click Install
